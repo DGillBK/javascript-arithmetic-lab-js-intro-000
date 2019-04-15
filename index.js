@@ -27,3 +27,13 @@ function dec(n) {
   return n -= 1
 }
 dec(4)
+
+function makeInt(a,b){
+  return parseInt(a,b)
+}
+makeInt('3.5',10)
+
+function preserveDecimal(a){
+  return parseFloat(a)
+}
+preserveDecimal('3.5')
