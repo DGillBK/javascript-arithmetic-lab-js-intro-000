@@ -19,11 +19,11 @@ function divide(a,b){
 divide(10,2)
 
 function inc(n){
-  return n+=
+  return n += 1
 }
 inc(4)
 
 function dec(n) {
-  return n-=
+  return n -= 1
 }
 dec(4)
